@@ -56,6 +56,8 @@ the Levenberg-Marquardt algorithm. The first step is to calculate the loss, the 
 the Hessian approximation. Then the damping parameter is adjusted so as to reduce the loss
 at each iteration.
 
+![alt text](https://raw.githubusercontent.com/virajmavani/predicting-wind-speed/master/data_repo/LM.jpg)
+
 As we have seen the Levenberg-Marquardt algorithm is a method tailored for functions of the
 type sum-of- squared-error. That makes it to be very fast when training neural networks
 measured on that kind of errors.
@@ -66,9 +68,15 @@ training using the MATLAB ‘train’ function which uses the above mentioned Le
 Marquardt algorithm. To reduce the error, I tried many different things and changed the
 hyper-parameters to reach the accuracy of 99% on the Validation and Test splits.
 
+![alt text](https://raw.githubusercontent.com/virajmavani/predicting-wind-speed/master/data_repo/1.jpg)
+
 Fig 1. Neural Network model defintion
 
+![alt text](https://raw.githubusercontent.com/virajmavani/predicting-wind-speed/master/data_repo/2.jpg)
+
 Fig 2. Performance (Mean Squared Error)
+
+![alt text](https://raw.githubusercontent.com/virajmavani/predicting-wind-speed/master/data_repo/3.jpg)
 
 Fig 3. Training, Validation and Testing Curve
 
