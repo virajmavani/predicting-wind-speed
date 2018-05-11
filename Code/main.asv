@@ -1,0 +1,16 @@
+Jan = xlsread('..\Dataset1\January2016.xlsx');
+Feb = xlsread('..\Dataset1\February2016.xlsx');
+Mar = xlsread('..\Dataset1\March2016.xlsx');
+Apr = xlsread('..\Dataset1\April2016.xlsx');
+May = xlsread('..\Dataset1\May2016.xlsx');
+Jun = xlsread('..\Dataset1\June2016.xlsx');
+Jul = xlsread('..\Dataset1\July2016.xlsx');
+Aug = xlsread('..\Dataset1\August2016.xlsx');
+Sep = xlsread('..\Dataset1\September2016.xlsx');
+Oct = xlsread('..\Dataset1\October2016.xlsx');
+Nov = xlsread('..\Dataset1\November2016.xlsx');
+Dec = xlsread('..\Dataset1\December2016.xlsx');
+
+[X,y] = pre_process_traindata(Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec)
+
+net = 
