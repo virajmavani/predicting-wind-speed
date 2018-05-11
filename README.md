@@ -56,7 +56,7 @@ the Levenberg-Marquardt algorithm. The first step is to calculate the loss, the 
 the Hessian approximation. Then the damping parameter is adjusted so as to reduce the loss
 at each iteration.
 
-![alt text](https://raw.githubusercontent.com/virajmavani/predicting-wind-speed/master/data_repo/LM.jpg)
+![alt text](https://raw.githubusercontent.com/virajmavani/predicting-wind-speed/master/data_repo/LM.png)
 
 As we have seen the Levenberg-Marquardt algorithm is a method tailored for functions of the
 type sum-of- squared-error. That makes it to be very fast when training neural networks
